@@ -74,7 +74,6 @@ exports.update = async function (req, res) {
   }
   /* Save the listing */
   listing.save (function (err) {
-    console.log ("TEST1");
     if (err) {
       console.log (err);
       res.status (400).send (err);
