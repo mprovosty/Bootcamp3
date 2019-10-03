@@ -82,18 +82,6 @@ exports.update = async function (req, res) {
       console.log (listing)
     }
   })
-  // Listing.findOneAndUpdate ({id: req.body.id}, function (err, listing) {
-  //   if (err) {
-  //     console.log (err);
-  //     res.status (400).send (err);
-  //   } 
-  //   else {
-  //     console.log ('past error check in find and update');
-  //     listing.code = req.body.listings.code;
-  //     listing.name = req.body.listings.name;
-  //     listing.address = req.body.listings.address;
-  //   }
-  // });
 };
 
 /* Delete a listing */
